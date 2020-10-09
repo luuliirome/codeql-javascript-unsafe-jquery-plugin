@@ -7,6 +7,6 @@ predicate isSource(DataFlow::Node source) {
     )
 }
 
-from DataFlow::Node n
-where isSource(n)
-select n
+from DataFlow::Node node
+where isSource(node)
+select node
